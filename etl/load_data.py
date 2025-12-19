@@ -6,7 +6,7 @@ OUTPUT_CLEAN_CSV = "data/sales_data_clean.csv"
 DB_PATH = "data/sales.db"
 
 def main():
-    df = pd.read_csv(INPUT_CSV)
+    df = pd.read_csv(INPUT_CSV, sep=',')
 
     # Transform
     df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
