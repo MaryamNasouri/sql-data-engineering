@@ -1,11 +1,11 @@
-"order_id,order_date,customer_id,product,category,region,quantity,unit_price"
-"1,2021-01-05,1001,Laptop,Technology,East,1,900"
-"2,2021-01-06,1002,Desk,Furniture,West,1,300"
-"3,2021-01-06,1003,Chair,Furniture,South,2,120"
-"4,2021-01-07,1004,Monitor,Technology,East,1,220"
-"5,2021-01-08,1005,Printer,Technology,Central,1,150"
-"6,2021-01-08,1001,Paper,Office Supplies,East,5,5"
-"7,2021-01-09,1004,Pens,Office Supplies,West,10,2"
-"8,2021-01-10,1003,Desk,Furniture,South,1,250"
-"9,2021-01-10,1002,Laptop,Technology,West,1,1000"
-"10,2021-01-11,1005,Chair,Furniture,Central,2,100"
+order_id,order_date,customer_id,product,category,region,quantity,unit_price
+1,2021-01-05,1001,Laptop,Technology,East,1,900
+2,2021-01-06,1002,Desk,Furniture,West,1,300
+3,2021-01-06,1003,Chair,Furniture,South,2,120
+4,2021-01-07,1004,Monitor,Technology,East,1,220
+5,2021-01-08,1005,Printer,Technology,Central,1,1150
+6,2021-01-08,1001,Paper,Office Supplies,East,5,5
+7,2021-01-09,1004,Pens,Office Supplies,West,10,2
+8,2021-01-10,1003,Desk,Furniture,South,1,250
+9,2021-01-10,1002,Laptop,Technology,West,1,1000
+10,2021-01-11,1005,Chair,Furniture,Central,2,100
