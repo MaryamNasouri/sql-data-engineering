@@ -10,23 +10,6 @@ Practical SQL project with ETL, table creation, joins, and analytical queries fo
 `customers (1) → (N) sales`
 `products (1) → (N) sales`
 ER
- ┌─────────────┐        ┌─────────────┐
- │  customers  │        │   products  │
- │─────────────│        │─────────────│
- │ customer_id │        │ product_id  │
- │ name        │        │ name        │
- │ country     │        │ category    │
- └───────┬─────┘        └──────┬──────┘
-         │                      │
-         │ 1                  1 │
-         │                      │
-         ▼                      ▼
-              ┌─────────────────────┐
-              │        sales        │
-              │─────────────────────│
-              │ sale_id             │
-              │ customer_id (FK)    │
-              │ product_id (FK)     │
-              │ quantity            │
-              │ sale_date           │
-              └─────────────────────┘
+
+<img width="741" height="597" alt="image" src="https://github.com/user-attachments/assets/21059557-b836-415a-8b04-29c8b2333421" />
+
